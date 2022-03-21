@@ -1,0 +1,26 @@
+:root {
+    --color-white: #fff;
+    --color-green: rgb(84, 180, 132);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    min-height: 100vh;
+    background-image: url(../images/river.jpg);
+    overflow: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
