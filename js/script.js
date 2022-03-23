@@ -1,25 +1,23 @@
 {
     const welcome = () => {
-        console.log("Hello World")
+        console.log("Hello World");
     }
-
-    welcome()
 
     const calculateResult = (currencyValueFrom, currencyTo) => {
 
-        const EURrate = 4.8448;
-        const USDrate = 4.4200;
-        const GBPrate = 5.7711;
+        const eurRate = 4.8448;
+        const usdRate = 4.4200;
+        const gbpRate = 5.7711;
 
         switch (currencyTo) {
             case "EUR":
-                return currencyValueFrom / EURrate;
+                return currencyValueFrom / eurRate;
 
             case "USD":
-                return currencyValueFrom / USDrate;
+                return currencyValueFrom / usdRate;
 
             case "GBP":
-                return currencyValueFrom / GBPrate;
+                return currencyValueFrom / gbpRate;
         };
     }
 
@@ -49,6 +47,8 @@
         const formElement = document.querySelector(".js-form");
 
         formElement.addEventListener("submit", onFormSubmit);
+
+        welcome()
     }
 
     init()
