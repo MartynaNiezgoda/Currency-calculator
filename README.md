@@ -1,4 +1,5 @@
 # Currency-calculator
+![calculatorScreen](images/currencyCalculatorScreen.png)
 
 ## Demo 
 https://martynaniezgoda.github.io/Currency-calculator/
